@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Student List - Javascript</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+    <script src="main.js" defer></script>
+
+
+</head>
+<body>
+    <div class="header">
+        <div class="logo"><img src="logo.png" /></div>
+    </div>
+<div class="content">
+
+    <h1>Intro</h1>
+    <p>Thank you for your interest in the Assistant Director of Online Marketing position at Dickinson. This page is an opportunity to show off your basic programming skills. Please feel free to take some creative freedoms if you'd like, but please be prepared to defend your solution. </p>
+
+    <h1>Directions</h1>
+    <p>Attached you'll find 4 documents.</p>
+   
+    <ul>
+        <li>index.html</li>
+        <li>main.js</li>
+        <li>style.css</li>
+        <li>logo.png</li>
+    </ul>
+
+    <h2>Deadline</h2>
+    <p>Please send your solution back to me by <strong>Wednesday, February 3rd</strong> if possible. You may submit it through email (<a href="mailto:sheriffs@dickinson.edu">sheriffs@dickinson.edu</a>) or host it somewhere where you can send me link.</p>
+    <p>If you need additional time for whatever reason, please email me to let me know.</p>
+
+    <h2>The job</h2>
+    <p><strong>Your task will be to display the array of students in a list below</strong>.</p> 
+        <ol>
+            <li>Add several more student records to the array in main.js.</li>
+            <li>Using a loop, display the results so that each record is added as a new list item below.</li>
+            <li>Add to the style.css file to give the hometown and majors lines a complimentary styling to that which I have added to the name entry.</li>
+            <li>Add a line in the output for an email that is clickable (add this to previous array entries as well).</li>
+            <li>You may solve this as you see fit, though I've given you a bit of a start in VUE.js and would prefer the solution in VUE. It is NOT required, though, so if you want to use your own JavaScript, do so.</li>
+
+        </ol>
+
+<hr class="thin-rule" />
+
+<h1>Student list:</h1>
+
+    <div id="app">
+    <ul class="nobullet">
+        <li>
+            <p class="name">Name: </p>
+            <p>Hometown: </p>
+            <p>Major: </p>
+            <p>email: </p>
+            <br />
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
